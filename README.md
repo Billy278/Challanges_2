@@ -1,4 +1,4 @@
-# DTS BATCH 7
+# BATCH 7 Challenges day 2
 
 SOAL :
 
