@@ -14,11 +14,14 @@ func main() {
 		fmt.Printf("character %#U  start at byte position %v\n", v, i)
 	}
 
-	for j := 0; j <= 10; j++ {
-		if j <= 5 {
-			continue
+	j := 5
+	for {
+		j++
+		if j <= 10 {
+			fmt.Println("Nilai j = ", j)
+		} else {
+			break
 		}
-		fmt.Println("Nilai j = ", j)
 	}
 
 }
